@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pairs game</title>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <section class="memory-game">
+      <div class="memory-input">
+        <p class="memory-input__p">Количество карточек (от 4 до 16):</p>
+        <input class="memory-input__input" id="memory-input__input" type="text" />
+        <button class="memory-input__btn" id="memory-input__btn" type="submit">ок</button>
+      </div>
+      <div class="memory-card__item"></div>
+      <h2 class="memory-card__title" style="display: none">Игра закончена, вы справились!</h2>
+      <div class="memory-btn">
+        <button class="memory-input__btn memory-btn__reset" id="memory-btn__reset" type="submit">Заново</button>
+      </div>
+    </section>
+  </body>
+</html>
